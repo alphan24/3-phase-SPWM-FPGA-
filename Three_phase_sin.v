@@ -1,4 +1,4 @@
-module 3p_sin(clk,out_p1,out_p1_inv,out_p2,out_p2_inv,out_p3,out_p3_inv,freq_adj);
+module Three_phase_sin(clk,out_p1,out_p1_inv,out_p2,out_p2_inv,out_p3,out_p3_inv,freq_adj);
 input clk;
 input [3:0]freq_adj;
 output out_p1,out_p1_inv,out_p2,out_p2_inv,out_p3,out_p3_inv;
